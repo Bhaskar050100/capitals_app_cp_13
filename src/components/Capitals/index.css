@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.cont {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.inner-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: #93c5fd;
+  padding: 40px;
+}
+.details-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 60px;
+  font-family: 'Roboto';
+}
+.head {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: bold;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+select {
+  width: 150px;
+  font-size: 20px;
+  color: #000000;
+  padding: 5px;
+  padding-left: 10px;
+  border-color: #cbd2d9;
+}
+.para {
+  font-size: 20px;
+  color: #000000;
+  margin-left: 10px;
+}
+.ans {
+  color: #323f4b;
+  font-size: 40px;
+  font-weight: bold;
+}
